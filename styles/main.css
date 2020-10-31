@@ -81,8 +81,8 @@ nav .profile-link {
 
 nav .profile-link a {
   font-family: 'Roboto', sans-serif;
-  color: #fff;
-  border-bottom: 1px solid #fff;
+  color: #000;
+  border-bottom: 1px solid #000;
 }
 
 .home-img {
@@ -191,4 +191,25 @@ footer {
 footer p {
   color: #fff;
   margin-top: 30px;
+}
+
+.blogpost-img-container {
+  padding: 0 50px 40px;
+}
+
+.blogpost-img-container img {
+  width: 100%;
+}
+
+.blogpost-main-container {
+  padding: 0 5px 40px;
+}
+
+.blogpost-main-container h3 {
+  border-bottom: 1px solid #cdcdcd;
+  padding-bottom: 20px;
+}
+
+.blogpost-main-container article h1 {
+  font-size: 35px;
 }
